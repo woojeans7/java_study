@@ -1,0 +1,8 @@
+# 모든 .class 파일 무시
+*.class
+
+# IDE 폴더 무시
+.idea/
+*.iml
+out/
+bin/
