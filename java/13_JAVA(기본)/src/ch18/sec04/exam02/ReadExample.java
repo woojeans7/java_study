@@ -19,7 +19,7 @@ public class ReadExample {
             System.out.println();
 
 
-            reader = new FileReader("/Users/swj/Desktop/Temp/test.txt");
+            reader = new FileReader("java/Temp/test.txt");
             char[] data = new char[100];
             while(true) {
                 int num = reader.read(data);

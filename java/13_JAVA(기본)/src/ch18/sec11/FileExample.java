@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FileExample {
     public static void main(String[] args) throws Exception {
-        File file = new File("/Users/swj/Desktop/Temp/file 1.txt");
+        File file = new File("java/Temp/file 1.txt");
 
         if (!file.exists()) {
             System.out.println("해당 파일은 없는 파일입니다.");

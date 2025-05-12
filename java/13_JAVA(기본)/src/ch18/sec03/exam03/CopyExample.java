@@ -7,8 +7,8 @@ import java.io.OutputStream;
 
 public class CopyExample {
     public static void main(String[] args) throws Exception {
-        String originalFileName = "/Users/swj/Desktop/Temp/test.jpg";
-        String targetFileName = "/Users/swj/Desktop/Temp/test2.jpg";
+        String originalFileName = "java/Temp/test.jpg";
+        String targetFileName = "java/Temp/test2.jpg";
         try (
                 InputStream is = new FileInputStream(originalFileName);
                 OutputStream os = new FileOutputStream(targetFileName);

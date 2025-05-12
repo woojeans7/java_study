@@ -6,7 +6,7 @@ import java.io.OutputStream;
 
 public class WriteExample {
     public static void main(String[] args) {
-        try(OutputStream os = new FileOutputStream("/Users/swj/Desktop/Temp/test2.db")) {
+        try(OutputStream os = new FileOutputStream("java/Temp/test2.db")) {
             byte[] array = { 10, 20, 30 };
 
             os.write(array);
